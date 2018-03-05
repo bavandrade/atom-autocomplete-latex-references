@@ -68,10 +68,10 @@ class LabelManager
       (\\ # latex command begin
       (#{targetList}) # caption or sections commands #2
       \*? # optimal star commands
-      (\[.+?\])? # optional paramter #3
+      (\[.+?\])? # optional parameter #3
       {(.+?)} # arg of captions #4
       \s* # some white space
-      )? # this is not nessary #1
+      )? # this is not necessary #1
       \\label # labels have to be defined with label
       {(((\w+):)?.+?)} # label #5 type #7
       ///g
