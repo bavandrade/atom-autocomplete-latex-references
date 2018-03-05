@@ -17,7 +17,7 @@ module.exports =
 
   # Get Database Informations
   showDatabaseInfo: ->
-    message = "Autocomplete Latex References Database Info"
+    message = "Autocomplete LaTeX References Database Info"
     options = {
       'dismissable': true
       'icon': 'database'

@@ -1,4 +1,4 @@
-describe "Autocomplete Latex References Package", ->
+describe "Autocomplete LaTeX References Package", ->
   {workspaceElement} = []
 
   beforeEach ->
@@ -14,5 +14,5 @@ describe "Autocomplete Latex References Package", ->
        atom.commands.dispatch(workspaceElement, 'autocomplete-latex-references:show-database-info')
        noti = atom.notifications.getNotifications()
        expect(noti).toHaveLength 1
-       expect(noti[0].message).toEqual "Autocomplete Latex References Database Info"
+       expect(noti[0].message).toEqual "Autocomplete LaTeX References Database Info"
        expect(noti[0].type).toEqual "info"

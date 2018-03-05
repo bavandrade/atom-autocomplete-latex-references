@@ -1,4 +1,4 @@
-describe "Latex Referemces Autocompletions", ->
+describe "LaTeX References Autocompletions", ->
   [editor, provider] = []
 
   getCompletions = ->
